@@ -3,9 +3,10 @@
 # Overview
 The notebook  **Importance and Efficiency Prediction.ipynb** loads the test data: **x_test.csv** (encoded features), **y_test.csv** (target efficiencies), and the trained model **xgb**, to compute the importance of chromatin accessibility parameter relative to the context-sequence, and predict the efficiency of the test data (dummy encoded, i.e. the following representation denotes that the first base is C).
 
- |1_A                          |1_C                   |1_G                           |1_T                                 
-|----------------|-----------|------------|----------------|-------
-|0            |1           |0    |0
+| 1_A | 1_C| 1_G |1_T|
+| --------------- | ---------------  | --------------- | --------------- |
+|0| 1  | 0| 0 |
+
 
 
 # System Requirements
